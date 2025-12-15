@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        section{
+            height: 700px;
+            background-color: black;
+            display: flex;
+            /*justify-content: center;*/
+            gap: 50px;
+            /*flex-direction: row-reverse;*/
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+        .abc1{
+            height: 150px;
+            width: 180px;
+            background-color: aquamarine;
+        }
+
+        .abc2{
+            height: 150px;
+            width: 180px;
+            background-color: rgb(25, 220, 155);
+        }
+
+        .abc3{
+            height: 150px;
+            width: 180px;
+            background-color: rgb(21, 112, 82);
+        }
+    </style>
+</head>
+<body>
+    <!--flex ko hum parent me use krte he 
+    leikn uska sara effect uske child par kerega ,
+    
+    jaise  hi hum flex use krte hai vese hi hume kuchh flex extra properties mil jati he
+
+    flex ki  properties only parent par effect kregi
+    -->
+
+    <section>
+        <div class="abc1"></div>
+        <div class="abc2"></div>
+        <div class="abc3"></div>
+        <div class="abc1"></div>
+        <div class="abc2"></div>
+        <div class="abc3"></div>
+        <div class="abc1"></div>
+        <div class="abc2"></div>
+        <div class="abc3"></div>
+        <div class="abc1"></div>
+        <div class="abc2"></div>
+        <div class="abc3"></div>
+    </section>
+</body>
+</html>
